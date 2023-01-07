@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.upper{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    height: 40px;
+    flex: 1;
+    
+    
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+    
+}
+
+.header{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.second-block{
+    background-color:#1f2937 ;
+    
+    
+    height: auto;
+}
+
+.second-block .vertical{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px 60px;
+    gap: 5px;
+
+
+}
+
+.second-block .vertical .title{
+    font-size: 38px ;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+
+
+}
+
+.second-block .vertical .secondary{
+    font-size: 18px ;
+   
+    color: #f9faf8;
+
+
+}
+
+.second-block .image{
+    text-align: auto;
+    padding: 10px;
+    margin: 40px 90px;
+    font-size: 18px ;
+    height: 120px;
+    background-color: grey;
+    
+    color: #f9faf8;
+
+
+}
+body .second-block .vertical button{
+    width: 80px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+
